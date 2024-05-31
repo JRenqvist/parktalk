@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lavender"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/mainFeedButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Main feed"
+        android:textSize="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/followingFeedButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Following feed"
+        android:textSize="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
