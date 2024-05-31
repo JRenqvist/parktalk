@@ -1,4 +1,4 @@
-### PARKTALK
+# PARKTALK
 
 ## Description
 Have you ever looked at a parking sign and not have a clue what it means? This project aims to solve that problem. This project is a social app for android devices where users will upload posts on parking signs and ask the community what the signs mean. You can ask for help or help others to gain points and climb a worldwide leaderboard.
@@ -6,7 +6,7 @@ Have you ever looked at a parking sign and not have a clue what it means? This p
 ## Setup
 Here is how to setup the application.
 
-# Backend
+### Backend
 The "backend" directory contains the backend which is written in python. This directory can be opened and edited with any IDE. VSCode was used during development, so VSCode is recommended.
 
 We use flask as our framework and an sqlite database. The database will start of being empty.
@@ -27,7 +27,7 @@ If you want to add some placeholder users, run the following command:
 
 This will create users, posts, comments and like differnet items randomly. Can be used to easily debug or experiment with the app.
 
-# Frontend
+### Frontend
 The frontend will require an emulator or physical device to run. It is highly recommended to run this in Android Studio, which can also handle emulators. Refer to https://developer.android.com/studio for installation. 
 
 The emulator "Pixel 3a" was used during development. Make sure API level is 34+. 
